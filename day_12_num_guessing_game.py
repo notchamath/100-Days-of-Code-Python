@@ -16,7 +16,7 @@ if difficulty == "hard": attempts = 5
 # Random number
 NUM = random.randint(1, 100)
 
-def play(NUM, attempts):
+def play(attempts):
     
     is_game_over = False
 
@@ -39,4 +39,4 @@ def play(NUM, attempts):
             print(f"The correct number was {NUM}.")
             is_game_over = True
 
-play(NUM, attempts)
+play(attempts)
